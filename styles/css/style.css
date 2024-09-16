@@ -1,3 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  height: 100vh;
+  background-color: rgb(41, 52, 85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .form-login {
+  width: 350px;
+  height: 350px;
+  background-color: rgb(22, 21, 21);
+}
+.container .form-login form {
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container .form-login form .log-in-form-login {
+  margin-top: 2rem;
+}
+.container .form-login form .log-in-form-login h1 {
+  color: #cfcdcd;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .form-login form #username {
+  background-color: rgb(22, 21, 21);
+  border: 1px solid rgb(61, 120, 187);
+  padding: 10px 15px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+.container .form-login form #password {
+  background-color: rgb(22, 21, 21);
+  border: 1px solid rgb(61, 120, 187);
+  padding: 10px 15px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 1.5rem;
+}
+.container .form-login form input::placeholder {
+  text-transform: capitalize;
+}
+.container .form-login form .button {
+  background-color: rgb(22, 21, 21);
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid rgb(14, 180, 69);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  margin-top: 1.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */
