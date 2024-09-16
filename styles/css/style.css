@@ -43,8 +43,20 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.65rem;
   letter-spacing: 0.3rem;
+  transition: 800ms ease;
+  -webkit-transition: 800ms ease;
+  -moz-transition: 800ms ease;
+  -ms-transition: 800ms ease;
+  -o-transition: 800ms ease;
 }
-.container .form-login form #username {
+.container .form-login form .log-in-form-login span:hover {
+  color: green;
+  letter-spacing: 0;
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+.container .form-login form .username, .container .form-login form .password {
   background-color: rgb(22, 21, 21);
   border: 1px solid rgb(61, 120, 187);
   padding: 10px 15px;
@@ -56,19 +68,17 @@
   text-align: center;
   color: white;
   margin-top: 2rem;
+  outline-style: none;
+  transition: 200ms ease;
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -ms-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  cursor: pointer;
 }
-.container .form-login form #password {
-  background-color: rgb(22, 21, 21);
-  border: 1px solid rgb(61, 120, 187);
-  padding: 10px 15px;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  text-align: center;
-  color: white;
-  margin-top: 1.5rem;
+.container .form-login form .username_one, .container .form-login form .password_one {
+  padding: 10px 35px;
+  border-color: rgb(155, 0, 155);
 }
 .container .form-login form input::placeholder {
   text-transform: capitalize;
@@ -84,6 +94,19 @@
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   margin-top: 1.5rem;
+  transition: 200ms ease;
+  -webkit-transition: 200ms ease;
+  -moz-transition: 200ms ease;
+  -ms-transition: 200ms ease;
+  -o-transition: 200ms ease;
+  cursor: pointer;
+}
+.container .form-login form .button:hover {
+  background-color: rgb(90, 214, 90);
+  color: rgb(20, 0, 99);
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

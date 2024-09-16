@@ -5,3 +5,11 @@
     -ms-border-radius: $radius;
     -o-border-radius: $radius;
 }
+
+@mixin transition($transform){
+    transition: $transform;
+    -webkit-transition: $transform;
+    -moz-transition: $transform;
+    -ms-transition: $transform;
+    -o-transition: $transform;
+}
